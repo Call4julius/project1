@@ -1,0 +1,169 @@
+<!doctype html>
+<html>
+
+	<head>
+	
+	<meta charset="utf-8">
+	<title>Coffee Survey</title>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+	<link href="Styles/Styles.css" rel="stylesheet" type="text/css" />
+	
+	</head>
+
+	<body>
+		
+	<header>
+	
+	<h1>All About Coffee</h1>
+
+	<nav>
+
+	<ul>
+	
+	<li><a href="index.html">Home</a></li>
+	<li><a href="roasting.html">Roasting</a></li>
+	<li><a href="grinding.html">Grinding</a></li>
+	<li><a href="brewing.html">Brewing</a></li>
+	<li><a href="drinks.html">Drinks</a></li>
+	<li><a href="survey.html">Coffee Survey</a></li>
+	<li><a href="contact.html">Contact Us</a></li>
+	
+	</ul>
+				
+	</nav>
+	
+	</header>
+
+	<h1>Coffee Survey</h1>
+
+	<aside>
+
+		<figure>
+			<img src="images/coffee-flower.jpg" alt="have a good coffee day" />
+			<figcaption>Have a good coffee day!</figcaption>
+		</figure>
+
+	</aside>
+
+	<form action="mailto:call4julius@gmail.com" method="post" enctype="text/plain">
+
+		<fieldset>
+		
+			<legend>Personal Information</legend>
+
+			<label for="full-name">Your Full Name</label><br/>
+			<input type="text" name="name" size="45" placeholder="Enter your full name" required id="full-name" />
+
+			<br/><br/>
+			<label for="email">Email Address</label><br/>
+			<input type="email" name="email" size="45" placeholder="Enter an email address" required id="email" />
+			
+			<br/><br/>
+			<label for="birthday">Date Of Birth</label><br/>
+			
+			<input type="number" name="day" value="Day" min="1" max="31" size="5" placeholder="Day" />
+			
+			<select>
+			
+			<option value="Jan">January</option>
+			<option value="Feb">February</option>
+			<option value="Mar">March</option>
+			<option value="Apr">April</option>
+			<option value="May">May</option>
+			<option value="Jun">June</option>
+			<option value="Jul">July</option>
+			<option value="Aug">August</option>
+			<option value="Sep">September</option>
+			<option value="Oct">October</option>
+			<option value="Nov">November</option>
+			<option value="Dec">December</option>
+			<option value="" selected>Month</option>
+						
+			</select>
+			
+			<input type="number" name="year" value="year" min="1922" max="2017" size="10" placeholder="Year" />
+			
+			
+		
+		</fieldset>
+		
+		<br/>
+
+		<fieldset>
+			<legend>Survey</legend>
+
+			<label for="message">Tell us about your coffee preparation methods.</label>
+			<br/>
+			<textarea name="messsage" id="message" cols="45" rows="5" >Type your method here.</textarea>
+
+			<br/><br/>
+			<label for="grind">Do you grind your own beans?</label>
+			<br/>
+			<input type="radio" name="ground" value="yes" id="grind" />yes
+			<br/>
+			<input type="radio" name="ground" value="no" id="grind" />no
+
+			<br/><br/>
+			<label for="drink">How do you drink your coffee?</label><br/>
+			<input type="checkbox" name="check1" value="sugar" id="drink" />With sugar<br/>
+			<input type="checkbox" name="check2" value="cream" id="drink" />With cream
+
+			<br/><br/>
+			<label for="frequent">How frequent do you take coffee in a day?</label><br/>
+			<input type="number" name="frequency" id="frequent" min="0" max="10" value="0"/>
+
+			<br/><br/>
+			<label for="favor">What is your favorite coffee drink? Please select a drink.</label>
+
+			<br/>
+
+			<select name="favorite" id="favor">
+			
+			<option value="opt1">Drip Coffee</option>
+			<option value="opt2">French Press</option>
+			<option value="opt3">Espresso</option>
+			<option value="opt4">Latte</option>
+			<option value="opt5">Flavored</option>
+			<option value="" selected>Select</option>
+			
+			</select>
+
+			<br/><br/>
+			
+			<label>We would like to have a picture of you holding a cup of coffee for our campaign program. Kindly upload here.</label>
+			<br/>
+			<input type="file" name="pic" multiple accept="image/*">
+			
+			<br/><br/>
+
+			<label for="rating">How would you rate our informative website?</label>
+			<br/>
+			0<input type="range" name="rate" min="0" max="10" value="1" id="rating" />10
+
+
+			<br/>
+
+		</fieldset>
+
+		<br/>
+		<input type="Submit" value="Submit" />
+
+	</form>
+
+	<footer>
+	<nav>
+
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="roasting.html">Roasting</a></li>
+		<li><a href="grinding.html">Grinding</a></li>
+		<li><a href="brewing.html">Brewing</a></li>
+		<li><a href="drinks.html">Drinks</a></li>
+		<li><a href="survey.html">Coffee Survey</a></li>
+		<li><a href="contact.html">Contact Us</a></li>
+	</ul>
+		
+	</nav>
+	</footer>
+	</body>
+</html>
